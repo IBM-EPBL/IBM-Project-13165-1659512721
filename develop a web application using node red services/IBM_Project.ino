@@ -9,11 +9,11 @@ int h;
 String command;
 String data="";
 void callback (char* topic, byte* payload, unsigned int payloadLength);
-const char* ssid = "      ";
-const char* password = "       ";
-#define ORG "     "
-#define DEVICE_TYPE "       "
-#define  DEVICE_ID "     "
+const char* ssid = "IBMProject";
+const char* password = "12345678";
+#define ORG "cbp14d"
+#define DEVICE_TYPE "NodeMCU"
+#define  DEVICE_ID "12345"
 #define led1 D0
 #define led2 D1
 const char publishTopic [] = "iot-2/evt/Data?fmt/json";
